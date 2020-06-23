@@ -22,11 +22,11 @@ const SearchBar = () => {
         placeholder="Search"
         value={searchInput}
         onChange={onChange}
-        className="w-10/12 border border-blue-600 text-sm px-4 py-2 rounded-l outline-none"
+        className="w-5/6 border border-blue-600 text-sm px-4 py-2 rounded-l outline-none"
       />
       <button
         type="button"
-        className="border border-blue-600 bg-blue-600 hover:bg-blue-700 text-white uppercase text-sm rounded-r px-3 py-2"
+        className="w-auto border border-blue-600 bg-blue-600 hover:bg-blue-700 text-white uppercase text-sm rounded-r px-3 py-2"
         onClick={onSubmit}
       >
         Go
